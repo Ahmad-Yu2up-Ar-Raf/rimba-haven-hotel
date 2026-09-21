@@ -8,7 +8,7 @@
 ## 1. Topology
 
 ```
-hotel-bnsp/
+rimba-haven-hotel/
 ├── docs/                    # PRD.md, design.md, architecture.md (ini), planning-todos.md, BNSP-Hotel.md
 ├── design-references/       # main-references.png (HAVEN)
 ├── frontend/                # (Phase 2) Vite + React + TS — SPA publik, tanpa login tamu

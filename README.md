@@ -5,7 +5,7 @@ Forest Elegant Green hotel booking app. Junior Web Developer certification demo 
 ## Monorepo structure
 
 ```
-hotel-bnsp/
+rimba-haven-hotel/
 ├── docs/                    # Phase 1 planning (source of truth)
 │   ├── PRD.md               # requirements, user stories, acceptance criteria
 │   ├── design.md            # Forest Elegant Green design system (oklch, serif + grotesk)
