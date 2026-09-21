@@ -26,3 +26,7 @@ Thumbs.db
 .idea/
 .vscode/*
 !.vscode/extensions.json
+
+# Internal AI agent tooling (node_modules equivalent for agent skills — never commit)
+.agents/
+.opencode/
