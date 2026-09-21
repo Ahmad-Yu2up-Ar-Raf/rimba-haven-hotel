@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+vendor/
+
+# Env
+.env
+!.env.example
+backend/.env
+
+# Build output
+dist/
+build/
+
+# SQLite (dev database file, recreated via migrate --seed)
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
+!backend/database/.gitkeep
+
+# Logs & OS
+*.log
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/*
+!.vscode/extensions.json
