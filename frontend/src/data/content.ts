@@ -85,7 +85,7 @@ export const FAQS: Faq[] = [
 export interface GalleryItem {
   src: string;
   alt: string;
-  tab: "Kamar" | "Alam" | "Kuliner";
+  tab: "Kamar" | "Alam" | "Kuliner" | "Spa";
 }
 
 export const GALLERY: GalleryItem[] = [
@@ -94,5 +94,7 @@ export const GALLERY: GalleryItem[] = [
   { src: "/assets/images/rooms/deluxe-1.jpg", alt: "Kamar Deluxe", tab: "Kamar" },
   { src: "/assets/images/rooms/family-1.jpg", alt: "Suite Family", tab: "Kamar" },
   { src: "/assets/images/dining-1.jpg", alt: "Hidangan sarapan", tab: "Kuliner" },
-  { src: "/assets/images/offer-spa.jpg", alt: "Interior kabin yang hangat", tab: "Alam" },
+  { src: "/assets/images/offer-spa.jpg", alt: "Interior kabin yang hangat", tab: "Spa" },
+  { src: "/assets/images/rooms/deluxe-2.jpg", alt: "Sudut istirahat kamar Deluxe", tab: "Spa" },
+  { src: "/assets/images/rooms/standard-2.jpg", alt: "Detail kamar Standard", tab: "Alam" },
 ];

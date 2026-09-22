@@ -368,7 +368,7 @@ export function Booking() {
 
         <Reveal className="flex flex-col gap-5">
           <div className="flex flex-col gap-2 rounded-[1.75rem] bg-forest-900 p-6 text-cream-50 md:p-7">
-            <span className="text-xs font-semibold tracking-[0.2em] text-gold-400 uppercase">Ringkasan</span>
+            <span className="text-xs font-semibold tracking-[0.2em] text-forest-700 uppercase">Ringkasan</span>
             <div className="flex justify-between text-sm">
               <span className="text-cream-50/70">Kamar</span>
               <span>{room.name}</span>
